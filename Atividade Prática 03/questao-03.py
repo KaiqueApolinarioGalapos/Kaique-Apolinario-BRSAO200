@@ -7,7 +7,7 @@ temp = float(input("Temperatura: "))
 origem = input("Converter de (Digite um desses 3: C/F/K): ")
 convertido = input("Converter para (Digite um desses 3: C/F/K): ")
 
-# Converter origem para Celsius
+# Converter uma escala de temperatura
 if origem == "C":
     c = temp
 elif origem == "F":
@@ -17,7 +17,7 @@ elif origem == "K":
 else:
     print("Unidade de origem inválida!")
 
-# Converter Celsius para destino
+# Para outra escala de temperatura
 if convertido == "C":
     resultado = c
 elif convertido == "F":
